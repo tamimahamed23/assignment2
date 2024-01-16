@@ -70,6 +70,21 @@
     grid-column:span 12;
     grid-row:span 1;
   }
+
+  #hotel{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  #price{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  #location{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+
+
   
   }
   
@@ -82,6 +97,11 @@
       
       .tours-imge{
           width: 100%;
+      }
+
+
+      .chose-me-card-div{
+        flex-direction:column;
       }
   }
   
