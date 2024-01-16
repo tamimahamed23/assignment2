@@ -491,17 +491,17 @@ margin-left:20px;
 }
 
 .login-p{
-    color: #5A5A5D;
-
-   
-    font-size: 16px;
-  
-    font-weight: 400;
-    line-height: 26px;
+    display: block;
+    width: 80%;
+    margin:20px;
+     
+    height: 52px;
+    border-bottom:1px solid gray;;
+    
 }
 
 .login-h2{
-    color: #131318;
+    color: #000000;
 
 
   font-size: 24px;
