@@ -85,6 +85,20 @@
   }
 
 
+  .parfect-place-container{
+    display:block;
+    gap:40px;
+   
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .place-video iframe{
+    width:100%;
+    margin:10px;
+  }
+
   
   }
   

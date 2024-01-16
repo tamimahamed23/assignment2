@@ -332,12 +332,13 @@ margin-left:20px;
 }
 
 .chose-me-container p{
-    color: rgba(19, 19, 24, 0.70);
+   
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin:10px 0px 10px 0px;
     text-align: center;
+    color: #131318;
 }
 .chose-me-card{
     border:1px slateblue solid;
@@ -389,3 +390,53 @@ margin-left:20px;
       text-align: left;
 }
 
+/* 
+=========================
+==========================  */
+
+.parfect-place-container{
+    display:flex;
+    gap:40px;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+.parfect-place-contant{
+    width: 100%;
+}
+.place-video-div{
+    width: 100%;
+    
+}
+
+.parfect-place-contant h3{
+  
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.parfect-place-contant p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.place-ul{
+   
+    padding:30px 30px;;
+    margin:0px;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.button-place{
+    padding:20px;
+    width:150px;
+    border-radius: 8px;
+    background:#ff5400;
+    border:none;
+    color:white;
+    font-weight: 400;
+}
