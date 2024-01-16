@@ -173,12 +173,22 @@ input{
     padding:20px 10px;
 }
 
+.tours-content{
+
+    width:50%;
+}
+
+.tours-imge{
+    width:100%;
+}
+
 .tours-content h2{
 
     color:#131313;
     font-size: 40px;
     font-weight: 800;
     padding: 10px;
+    
 
 
 }
