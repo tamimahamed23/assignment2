@@ -128,6 +128,7 @@
   .newseleter-img-div img{
     width: 100%;
     margin:20px 10px;
+
   }
   }
   
@@ -152,7 +153,32 @@
   }
 }
   
+
+.del-content{
+  margin:30px;
+}
   
+
+.dil-card ul{
+  display: flex;
+  padding:10px;
+  margin:10px;
+
+}
+
+.dil-card ul li{
+  list-style: none;
+  padding:10px;
+  margin:10px;
+  color:red;
+  font-size:25px;
+  border:1px solid red;
+ 
+}
+
+.del-content{
+  display:block;
+}
   
   
   
