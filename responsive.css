@@ -94,19 +94,48 @@
     
   }
 
+
+  .parfect-place-contant h3{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+  }
+
+  .parfect-place-contant ul li{
+    font-size:16px;
+    font-weight: 600;
+  }
+
+  
+
   .place-video iframe{
     width:100%;
     margin:10px;
   }
 
+
+  .newsletter-container{
+    display: block;
+    margin:30px;
+  }
   
+
+  .discount{
+      display:none;
+  }
+
+
+  .newseleter-img-div img{
+    width: 100%;
+    margin:20px 10px;
+  }
   }
   
   /* responsive for tablet  */
   
   @media screen and (min-width:576px) and (max-width:960px){
       .tours-content{
-          width: 100%;
+          width: 50%;
       }
       
       .tours-imge{
@@ -117,7 +146,11 @@
       .chose-me-card-div{
         flex-direction:column;
       }
+
+      .discount{
+        display:none;
   }
+}
   
   
   

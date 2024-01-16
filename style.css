@@ -6,6 +6,13 @@
     box-sizing:border-box;
 }
 
+
+/* global style  */
+
+/* img{
+    width:100%;
+    height: 100%;
+} */
 /* this style for body  */
 body{
     font-family: 'Mulish', sans-serif;
@@ -439,4 +446,163 @@ margin-left:20px;
     border:none;
     color:white;
     font-weight: 400;
+    margin:20px;
+}
+
+
+/* 
+=================================
+=================================== */
+
+
+
+.newsletter{
+    width:90%;
+    margin:0px auto;
+}
+.newsletter-container{
+    display: flex;
+}
+
+.newsleter-login-div{
+   
+    padding:20px;
+    width: 100%;;
+    margin:20px 10px;
+}
+.newseleter-img-div{
+    width: 100%;
+    margin:20px 10px;
+}
+
+.login-form{
+    
+    
+}
+
+.login-p{
+    color: #5A5A5D;
+
+   
+    font-size: 16px;
+  
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.login-h2{
+    color: #131318;
+
+
+  font-size: 24px;
+   font-weight: 800;
+
+}
+
+.login-form input{
+    display: block;
+    width: 80%;
+    margin:20px;
+    border-radius: 8px;
+    height: 52px;
+    background:rgba(19, 19, 24, 0.05);
+    
+}
+
+.login-btn{
+    padding:20px;
+    width:150px;
+    border-radius: 8px;
+    background:#ff5400;
+    border:none;
+    color:white;
+    font-weight: 400;
+    margin:20px;
+    width: 80%;
+}
+.newsleter-login-div{
+    padding:20px;
+    border-radius: 14px;
+    background:white;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+
+
+.newseleter-img-div{
+    position:relative;
+}
+
+.discount {
+            width: 324px;
+            height: 120px;
+            transform: rotate(-19.628deg);
+            
+             border-radius: 16px;
+             background: #FF5400;
+             text-align: center;
+             position:absolute ;
+             margin:-190px 250px -220px;
+            }
+
+
+.discount p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.discount h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+           
+
+
+
+.footer{
+    /* width: 100%; */
+ 
+    background: rgba(19, 19, 24, 0.05);
+    color:black;
+    text-align: center;
+    padding:50px;
+    text-align: center;
+}
+
+.fotter-logo{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    paddign:20px;
+}
+
+.f-p{
+    
+       margin:20px 20px;
+}
+
+.fotter-ul ul{
+  
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotter-ul ul li{
+    list-style: none;
+}
+
+.fotter-ul{
+    border-bottom:2px solid #ccc;
+    padding:30px;
+    margin:0px auto;
+}
+.tamim{
+    padding:10px;
+    margin:10px;
 }
