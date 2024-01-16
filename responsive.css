@@ -1,0 +1,93 @@
+/* responsive design start here */
+
+/* responsive for mobile devices start here  */
+
+@media screen and (max-width:768px){
+ 
+
+    .nav-menu{
+      display: none;
+    }
+  
+    .bar{
+      display: block;
+    }
+  
+    .header-content h1{
+      font-size:30px;
+      padding:10px;
+    }
+  
+    .header-input-btn{
+      width:100%;
+    }
+  
+    #select,.fa-btn,input{
+      width:100%;
+      margin:5px auto;
+    }
+  
+  
+    .tours-container{
+      flex-direction: column;
+  
+    }
+  
+    .tours-content h2{
+      font-size: 30px;
+    }
+  
+  
+    
+  #maldip{
+    grid-column:span 12;
+    grid-row:span 1;
+    position: relative;
+  }
+  #indonesia{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  #srilanka{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  
+  #america{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  #kashmir{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  
+  #bangladesh{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  #bandorbon{
+    grid-column:span 12;
+    grid-row:span 1;
+  }
+  
+  }
+  
+  /* responsive for tablet  */
+  
+  @media screen and (min-width:576px) and (max-width:960px){
+      .tours-content{
+          width: 100%;
+      }
+      
+      .tours-imge{
+          width: 100%;
+      }
+  }
+  
+  
+  
+  
+  
+      
+  
